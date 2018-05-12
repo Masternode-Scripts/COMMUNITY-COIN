@@ -3,8 +3,8 @@
 TMP_FOLDER=$(mktemp -d)
 CONFIG_FILE='community.conf'
 CONFIGFOLDER='/root/.community'
-COIN_DAEMON='communityd'
-COIN_CLI='community-cli'
+COIN_DAEMON='/usr/local/bin/communityd'
+COIN_CLI='/usr/local/bin/community-cli'
 COIN_REPO='https://www.dropbox.com/s/keoe9frqn3zroqe/linux-cmc.tar.gz'
 COIN_NAME='COMMUNITYCOIN'
 COIN_PORT=13555
